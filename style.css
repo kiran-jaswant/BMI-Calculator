@@ -16,23 +16,23 @@ body{
 
 }
 .poster{
-    height:250px;
-    width:450px;
+    height:200px;
+    width:350px;
     margin:25px;
 }
 form{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    
     width:500px;
     margin: auto;
     padding: 20px;
-    margin-top: 30px;
-
 
 }
 
 .result{
     margin-top: 20px;
+    font-size: 20px;
 
 }
 .inpt{
@@ -45,3 +45,27 @@ form{
 
 
 }
+
+.message {
+    font-size: 18px;
+    color: #080808;
+    font-weight: bold;
+    width:200px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .message-image {
+    width: 200px;
+    height: 290px;
+    border-radius: 8px;
+  }
+  .after-second-part{
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    width:400px;
+    background-color: white;
+    border-radius: 15px;
+    padding:15px;
+  }
