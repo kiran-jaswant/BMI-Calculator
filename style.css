@@ -1,3 +1,35 @@
 body{
     text-align: center;
+    background-color: bisque;
+}
+.btn{
+    border:2px solid black;
+    border-radius: 20px;
+    padding:10px 15px;
+    box-shadow: 0 0 10px grey;
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    margin: auto;
+    padding: 20px;
+
+
+}
+
+.result{
+    margin-top: 20px;
+
+}
+.inpt{
+
+    border:2px solid black;
+    padding:10px;
+    border-radius: 20px;
+    width:300px;
+
+
 }
